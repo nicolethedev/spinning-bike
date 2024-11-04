@@ -4,4 +4,6 @@ const slide = document.getElementById('slide');
 const leftButton = document.getElementById('btn-turn-clockwise');
 const rightButton = document.getElementById('btn-turn-counter-clockwise');
 
-// Add event listeners to the buttons
+const numberOfSlides = 34;
+let counter = 0;
+
